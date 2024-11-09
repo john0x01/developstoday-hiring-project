@@ -19,7 +19,7 @@ export async function generateStaticParams() {
     '2024',
   ]
   const data = await api
-    .get('/veicles/GetMakesForVehicleType/car?format=json')
+    .get('/vehicles/GetMakesForVehicleType/car?format=json')
     .then((res) => res.data as MakeResponse)
 
   return data.Results.map((car) => {
