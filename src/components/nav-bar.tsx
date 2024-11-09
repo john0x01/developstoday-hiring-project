@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 export function NavBar({ short }: { short?: boolean }) {
   return (
-    <div className="w-full border border-b-input">
+    <div className="flex w-full justify-center border border-b-input">
       <div className="w-full max-w-7xl flex justify-between items-center p-4">
         {/* Logo */}
         <p className="text-xl font-black">

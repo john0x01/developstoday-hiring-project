@@ -1,4 +1,4 @@
-import { MakeResponse } from '@/components/car-select'
+import { MakeResponse } from '@/components/make-select'
 import { NavBar } from '@/components/nav-bar'
 import { api } from '@/lib/api'
 import { Loader2 } from 'lucide-react'

@@ -1,4 +1,4 @@
-import { CarSelect } from '@/components/car-select'
+import { MakeSelect } from '@/components/make-select'
 import { NavBar } from '@/components/nav-bar'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           </span>{' '}
           in America
         </h1>
-        <CarSelect />
+        <MakeSelect />
       </section>
     </main>
   )
