@@ -8,5 +8,5 @@ This is is a car dealership project built with Next.js
 npm install
 npm run build
 npm start
-```bash
+```
 
