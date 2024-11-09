@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'https://vpic.nhtsa.dot.gov/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
 })
