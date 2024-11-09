@@ -3,7 +3,7 @@ import { NavBar } from '@/components/nav-bar'
 
 export default function Home() {
   return (
-    <main className="w-full h-screen flex justify-center relative">
+    <main className="w-full h-screen flex flex-col items-center relative">
       <NavBar />
       <section className="w-full h-full max-w-7xl flex flex-col items-center justify-center p-4 gap-16">
         <h1 className="text-5xl font-bold text-center">
